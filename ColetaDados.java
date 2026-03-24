@@ -15,7 +15,7 @@ public class ColetaDados {
     System.out.println("Altura (em metros): ");
     double altura = sc.nextDouble();
 
-    System.out.println("Insira se concluiu o treinamento (true/false): ");
+    System.out.println("Insira se concluiu o dream learning (true/false): ");
     boolean treinamento = sc.nextBoolean();
 
     System.out.println("Loading...");
@@ -32,6 +32,7 @@ public class ColetaDados {
     }
 
     System.out.println("Processo concluído!");
+    System.out.println("Bem-vindo Seven!");
 
     sc.close();
   }
