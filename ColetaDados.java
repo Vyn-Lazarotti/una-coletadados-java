@@ -12,8 +12,11 @@ public class ColetaDados {
     System.out.println("Insira a idade: ");
     int idade = sc.nextInt();
 
-    System.out.println("Altura (em metros): ");
+    System.out.println("Insira a altura (em metros): ");
     double altura = sc.nextDouble();
+
+    System.out.println("Insira o peso: ");
+    double peso = sc.nextDouble();
 
     System.out.println("Insira se concluiu o dream learning (true/false): ");
     boolean treinamento = sc.nextBoolean();
@@ -22,6 +25,7 @@ public class ColetaDados {
     System.out.println("Nome: " + nome);
     System.out.println("Idade: " + idade + " anos");
     System.out.println("Altura: " + altura + " metros");
+    System.out.println("Peso: " + peso + " kg");
     System.out.println("Completou o treinamento? " + (treinamento ? "Sim" : "Não"));
 
     if (idade < 20 && idade >= 40){
